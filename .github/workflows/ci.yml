@@ -52,6 +52,7 @@ jobs:
           --
           -Dfrida-gum:devkits=gum,gumjs
           -Dfrida-core:compiler_backend=enabled
+          -Dfrida-core:assets=embedded
           -Dfrida-core:devkits=core
       - name: Compile
         run: make
